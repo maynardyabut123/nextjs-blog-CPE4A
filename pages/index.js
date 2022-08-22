@@ -9,10 +9,10 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hello, I'm <b>Jamir Catacutan</b>. I like to play computer games and mobile games. My favorite food is Asado and any type of cooked chicken. You can contact me on <Link href="https://www.facebook.com/jamir2334/">Facebook.</Link></p>
+        <p>Hello, I'm <b>Charles Maynard C. Yabut</b>. Hello, Good Day! and Welcome to my Blog! MAYNARD is a Computer Engineering Student from University of the Assumption. His daily hobbies includes Basketball, Online Games, watching Korean Stuffs and Animes. 
+        
+        <Link href="https://www.facebook.com/Maynard.Yabut24/"> Facebook.</Link></p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
         </p>
       </section>
     </Layout>
