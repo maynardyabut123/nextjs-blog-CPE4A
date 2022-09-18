@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+
+
+  box-sizing: border-box;
+
+  background-color:#FFCCCB;
+
+}
+header {
+  background-color: #90EE90;
+  padding: 60px;
+  margin: 20px;
+  text-align: center;
+  font-size: 25px;
+
+}
+
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #00FFFF;
+  padding: 20px;
+  margin: 20px;
+
+}
+
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #FFCCCB;
+  padding: 10px;
+  margin: 20px;
+}
+
+footer {
+  background-color: #90EE90;
+  border 15px: #90EE90;
+  padding: 60px;
+  margin: 20px;
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>Header</h2>
+</header>
+
+<section>
+  <nav>
+<h1><center>Aside</center></h1>
+</nav>
+  
+  <article>
+    <h1><center>Article</center></h1>
+    <p><center> Insert Sample Image &nbsp;&nbsp; Insert Sample Image &nbsp;&nbsp; Insert Sample Image </center></p>
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
