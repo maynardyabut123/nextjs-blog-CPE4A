@@ -11,7 +11,7 @@ export default function Home() {
       <section className={utilStyles.headingMd}>
 <p><b>Contact Information:</b></p>
 
-      <p><Link href="https://https://www.facebook.com/Maynard.Yabut24/">Facebook Page</Link></p>
+      <p><Link href="https://www.facebook.com/Maynard.Yabut24/">Facebook Page</Link></p>
 
       <p><b>Description:</b></p>
       <div>
